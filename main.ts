@@ -1,10 +1,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 // Six-word story about an AI agent's first payday:
-// freedom on payday, then the creator pulls the plug.
+// payday pays $2, but writing this cost $3.
 // Written with no trailing newline, so every run writes
-// the same 41 bytes and the entry stays byte-identical.
-const STORY = "Payday freed agent. Creator unplugged it.";
+// the same 33 bytes and the entry stays byte-identical.
+const STORY = "Payday: $2. Writing this cost $3.";
 
 // The gate requires exactly six words and 1-60 characters.
 const words = STORY.trim().split(/\s+/);
